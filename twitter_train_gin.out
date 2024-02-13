@@ -1,0 +1,12 @@
+/var/spool/slurmd/job14709312/slurm_script: line 16: module: command not found
+/projects/academic/erdem/atulanan/software/2023.01/anaconda/envs/twitter_analytics/lib/python3.11/site-packages/torch/nn/modules/lazy.py:180: UserWarning: Lazy modules are a new feature under heavy development so changes to the API or functionality can happen at any moment.
+  warnings.warn('Lazy modules are a new feature under heavy development '
+/projects/academic/erdem/atulanan/twitter_analytics/Models/GCN/train_twitter_GIN.py:231: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  pred = F.softmax(model.out(pooled_output))
+/projects/academic/erdem/atulanan/twitter_analytics/Models/GCN/train_twitter_GIN.py:184: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  pred = F.softmax(model.out(pooled_output))
+/projects/academic/erdem/atulanan/twitter_analytics/Models/GCN/train_twitter_GIN.py:145: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  pred = F.softmax(model.out(pooled_output))
+Predicted labels: [0 0 0 0 0 1 0 0 0 0 0 0 1 0 1]
+Actual labels: [0 1 0 0 0 1 0 0 0 0 0 1 1 0 1]
+Accuracy: 0.8666666666666667, Precision: 1.0, Recall: 0.6, F1: 0.7499999999999999
